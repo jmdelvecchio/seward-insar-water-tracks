@@ -1,0 +1,42 @@
+#chi metrics
+
+read fname: seward2_hsp_elev
+write_fname: seward_hsp__chi
+
+CHeads_file: seward_hsp__Dsources
+
+surface_fitting_radius: 14
+#default 30, had been 5. 
+
+#Table 7 hcc
+
+minimum_basin_size_pixels: 17500
+#maximum_basin_size_pixels: 1250000
+#print_basin_raster: true
+find_complete_basins_in_window: false #had been false, i got shorty channels when it was true
+find_complete_basins_in_window: false
+test_drainage_boundaries: false
+
+#Table 6 channel extraction
+min_slope_for_fillL 0.001
+
+surface_fitting_radius: 14
+#default 30, had used 5. 
+
+threshold_contributing_pixels: 1000
+
+connected_components_threshold: 50 
+#default 100
+
+pruning_drainage_area: 100 
+#default 1000
+
+# Chi things
+#BaselevelJunctions_file: 
+get_basins_from_outlets: true
+basin_outlet_csv: hcc_AllBasinsInfo.csv
+print_channels_to_csv: true
+print_chi_data_maps: true
+print_segmented_M_chi_map_to_csv: true
+use_extended_channel_data: true
+
