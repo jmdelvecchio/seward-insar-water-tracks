@@ -1,0 +1,16 @@
+Thumbs.db
+*.tif*
+*.tfw
+*.bil
+*.hdr
+*.aux.xml
+splitter*.csv
+delvecchio_seward_morphometry.ipynb
+delvecchio_seward_analysis_37.ipynb
+basin_statistics*
+lsdtt_exports/*
+figure_outputs/*
+basins_with_attributes*
+splitter_raster_stack_sample.csv
+.gitconfig
+.ipynb_checkpoints/

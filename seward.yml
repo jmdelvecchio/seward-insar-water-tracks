@@ -1,0 +1,21 @@
+name: seward
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - rasterio
+ - numpy
+ - geopandas
+ - matplotlib
+ - scipy
+ - seaborn
+ - rioxarray
+ - xarray
+ - pandas
+ - statannot
+ - richdem
+ - shapely
+ - jupyterlab
+ - pip
+ - pip:
+   - statannotations
