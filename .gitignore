@@ -13,3 +13,4 @@ basins_with_attributes*
 splitter_raster_stack_sample.csv
 .gitconfig
 .ipynb_checkpoints/
+zenodo_march/*
