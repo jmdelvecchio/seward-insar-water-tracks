@@ -1,8 +1,8 @@
-**Hillslope-channel coupling in a changing permafrost landscape: the critical role of water tracks**
+**Hillslope-Channel Transitions and the Role of Water Tracks in a Changing Permafrost Landscape**
 
 Joanmarie Del Vecchio, Simon Zwieback, Joel Rowland, Roman DiBiase, Marisa Palucis
 
-For submission to JGR:ES 
+[Now available in JGR: Earth Surface!](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023JF007156)
 
 # Where's the data??
 If you don't want to run this notebook, the `basin_means.csv` file is a relatively small file that gives you the mean value of each data layer for the 190 delineated headwater catchments. 
